@@ -1,0 +1,29 @@
+[
+  {
+    "repo": "gerulla/fullparty-plugin",
+    "asset": "FullParty.zip",
+    "author": "gerulla",
+    "name": "FullParty",
+    "internal_name": "FullParty",
+    "punchline": "Dalamud Plugin Companion for FullParty.gg",
+    "description": "Dalamud Plugin Companion for FullParty.gg",
+    "repo_url": "https://github.com/gerulla/fullparty-plugin",
+    "icon_url": "https://raw.githubusercontent.com/gerulla/fullparty-plugin/master/Data/icon.png",
+    "applicable_version": "any",
+    "dalamud_api_level": 15,
+    "tags": ["party", "utility"]
+  },
+  {
+    "repo": "gerulla/occult-crescent-widget",
+    "asset": "OccultCrescentWidget.zip",
+    "author": "gerulla",
+    "name": "Occult Crescent Widget",
+    "internal_name": "OccultCrescentWidget",
+    "punchline": "A compact Occult Crescent widget replacement.",
+    "description": "Adds Full, Minimal, and hidden modes for the Occult Crescent information widget.",
+    "repo_url": "https://github.com/gerulla/occult-crescent-widget",
+    "applicable_version": "any",
+    "dalamud_api_level": 15,
+    "tags": ["occult crescent", "widget", "utility"]
+  }
+]
