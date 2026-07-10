@@ -14,14 +14,14 @@
     "tags": ["party", "utility"]
   },
   {
-    "repo": "gerulla/occult-crescent-widget",
+    "repo": "gerulla/occultwindowbegone",
     "asset": "OccultCrescentWidget.zip",
     "author": "gerulla",
     "name": "Occult Crescent Widget",
     "internal_name": "OccultCrescentWidget",
     "punchline": "A compact Occult Crescent widget replacement.",
     "description": "Adds Full, Minimal, and hidden modes for the Occult Crescent information widget.",
-    "repo_url": "https://github.com/gerulla/occult-crescent-widget",
+    "repo_url": "https://github.com/gerulla/occultwindowbegone",
     "applicable_version": "any",
     "dalamud_api_level": 15,
     "tags": ["occult crescent", "widget", "utility"]
