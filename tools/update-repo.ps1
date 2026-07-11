@@ -44,19 +44,19 @@ $entries = @(
         $entry = [ordered]@{
             Author = [string]$plugin.author
             Name = [string]$plugin.name
+            Punchline = [string]$plugin.punchline
+            Description = [string]$plugin.description
             InternalName = [string]$plugin.internal_name
             AssemblyVersion = $version
-            TestingAssemblyVersion = $version
+            TestingAssemblyVersion = $null
             RepoUrl = [string]$plugin.repo_url
             ApplicableVersion = [string]$plugin.applicable_version
             DalamudApiLevel = [int]$plugin.dalamud_api_level
-            Punchline = [string]$plugin.punchline
-            Description = [string]$plugin.description
+            IsHide = $false
+            IsTestingExclusive = $false
             DownloadLinkInstall = [string]$asset.browser_download_url
             DownloadLinkUpdate = [string]$asset.browser_download_url
-            DownloadLinkTesting = [string]$asset.browser_download_url
-            DownloadCount = [int]$asset.download_count
-            LastUpdate = [DateTimeOffset]::Parse($release.published_at).ToUnixTimeSeconds()
+            LastUpdate = "$([DateTimeOffset]::Parse($release.published_at).ToUnixTimeSeconds())"
             Tags = @($plugin.tags)
         }
 
