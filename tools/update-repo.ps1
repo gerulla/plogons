@@ -33,6 +33,14 @@ $entries = @(
             $version = $version.Substring(1)
         }
 
+        $versionParts = $version.Split(".")
+        if ($versionParts.Count -eq 3) {
+            $version = "$version.0"
+        }
+        elseif ($versionParts.Count -ne 4) {
+            throw "Release tag '$($release.tag_name)' for $($plugin.repo) must be vX.Y.Z or vX.Y.Z.W."
+        }
+
         $entry = [ordered]@{
             Author = [string]$plugin.author
             Name = [string]$plugin.name
